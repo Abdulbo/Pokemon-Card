@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+   
+        <div class="wrapper-card">
+            <img src="" alt="" class="wrapper-img">
+            <p class="text-height"></p>
+            <p class="text-weight"></p>
+            <ul class="list-weaknesses">
+
+            </ul>
+            <ul class="listNextEvalition"></ul>
+        </div>
+        <nav class="nav-form">
+            <form action="#" method="GET" class="filterForm">
+                <label>
+                    Filter by types
+                    <select name="ganre" id="taypes">
+                        <option value="0">All</option>
+                    </select>
+                </label>
+                <button type="submit" class="button-filter">Filter</button>
+
+                <input id="searchInput" type="text" placeholder="Search...">
+                <button class="search-button">Add</button>
+                <select name="sort" id="sort">
+                    <option value="0">A-Z</option>
+                    <option value="1">Z-A</option>
+                    <option value="2">Year</option>
+                    <option value="3">Year-Revers</option>
+                </select>
+                <button class="button-filter-all">Filter</button>
+            </form>
+
+        </nav>
+        <p class="limit"><strong>Fond Pokemons: </strong> <span class="Pokemons-length"></span></p>
+
+        <form action="" id="form">
+            <input id="inputTitle" type="text" placeholder="Title ...." required>
+            <input id="inputText" type="text" placeholder="Text ...." required>
+            <input id='inputYear' type="number" placeholder="Year....." required>
+            <button id="button"> Add</button>
+        </form>
+
+        <div id="root"></div>
+        <div id="likedWrapper">
+            <p class="text-id">Salom</p>
+        </div>
+    </div>
+    <script src="./pokemons.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+body{
+    padding: 10px;
+    background-color: rgb(247,116,2);
+}
+
+#form{
+    display: flex;background-color: red;
+    margin: 10px;
+}
+
+.limit{
+    margin: 10px;
+}
+input{
+    flex-grow: 1;
+    padding: 2px;
+    font-size: 20px;
+}
+#button{
+    padding: 10px;
+    background-color:rgb(57, 191, 209);
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.h{
+    margin:10px;
+    width:200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(166,250,118);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.h:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 5px greenyellow;
+
+}
+
+#container{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.nav-form{
+   margin: 0 auto;
+    display: flex;
+    
+}
+
+#root{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.title{
+    text-shadow: 0 1px 2px black;
+}
+
+.text{
+    text-shadow: 0 1px 2px black;
+}
+
+.h:hover{
+color: red;
+background-color: greenyellow;
+}
+.item{
+    list-style-type: none;
+    text-align: center;
+    margin: 2px;
+    font-weight: bold;
+    color:orange;
+    text-shadow: 0 1px 2px black;
+}
+
+.limit{
+    text-align: center;
+    color:rgb(49, 209, 28);
+    font-weight: bold;
+    font-size: 22px;
+    text-shadow: 0 1px 2px black;
+}
+
+#taypes{
+    font-weight: bold;
+}
+.button-filter{
+background-color: chartreuse;
+border: none;
+color: white;
+padding: 3px;
+font-weight: bold;
+text-shadow: 0 1px 2px black ;
+}
+.button-filter-all{
+    background-color: chartreuse;
+    border: none;
+    color: white;
+    padding: 3px;
+    font-weight: bold;
+    text-shadow: 0 1px 2px black ;
+    }
+
+.Pokemons-length{
+    font-weight: bold;
+    font-size: 20px;
+    color:rgb(49, 209, 28);
+    text-shadow: 0 1px 2px black;
+}
+
+
+.searchForm{
+    display: flex;
+    margin: 10px;
+}
+
+#searchInput{
+   padding: 4px;
+   
+ }
+
+ .search-button{
+     padding: 5px 10px;
+     background-color:rgb(57, 191, 209);
+     font-size: 17px;
+     font-weight: bold;
+     color: white;
+     border: none;
+     cursor: pointer;
+ }
+
+ .sort{
+     display: flex;
+     justify-content: flex-start;
+ }
+ #filterForm{
+     flex-grow: 1;
+ }
+
+ .wrapper-card{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     
+ }
+
+ .item-info{
+   font-weight: bold;
+ }
+
